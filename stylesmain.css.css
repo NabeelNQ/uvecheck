@@ -1,0 +1,27 @@
+:root {
+    --primary: #000000;
+    --on-primary: #ffffff;
+    --surface: #ffffff;
+    --on-surface: #000000;
+    --surface-variant: #f5f5f5;
+    --on-surface-variant: #616161;
+    --outline: #e0e0e0;
+    --error: #b00020;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: var(--surface);
+    color: var(--on-surface);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Add all other CSS styles from the original index.html here */
